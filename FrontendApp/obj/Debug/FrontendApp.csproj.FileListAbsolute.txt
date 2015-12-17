@@ -1,0 +1,6 @@
+E:\FrameworkApp\FrontendApp\bin\FrontendApp.dll.config
+E:\FrameworkApp\FrontendApp\bin\FrontendApp.dll
+E:\FrameworkApp\FrontendApp\bin\FrontendApp.pdb
+E:\FrameworkApp\FrontendApp\obj\Debug\FrontendApp.csprojResolveAssemblyReference.cache
+E:\FrameworkApp\FrontendApp\obj\Debug\FrontendApp.dll
+E:\FrameworkApp\FrontendApp\obj\Debug\FrontendApp.pdb
