@@ -61,6 +61,8 @@
     <Content Include="bin\FrontendApp.dll" />
     <Content Include="bin\FrontendApp.pdb" />
     <Content Include="index.html" />
+    <Content Include="js\angularjs\storage\app.js" />
+    <Content Include="js\angularjs\storage\index.html" />
     <Content Include="test\baseTesting\index.html" />
     <Content Include="test\baseTesting\TestingController.js" />
     <Content Include="test\baseTesting\TestingDirective.js" />
@@ -81,7 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

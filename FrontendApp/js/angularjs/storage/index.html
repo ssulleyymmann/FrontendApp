@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+font-family:Arial;
+}
+
+a{
+text-decoration: none;
+font-weight: bold;
+color: rgb(145, 145, 145);
+}
+.container {
+width: 100%;
+max-width: 960px;
+margin: 0px auto;
+}
+
+.app-header {
+text-align: center;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+height: 40px;
+background: #336699;
+}
+.app-title {
+font-size: 28px;
+line-height: 40px;
+padding: 0px;
+margin: 0px;
+color: #fff;
+text-shadow: 1px 1px 3px #000000;
+filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+.app-headline {
+color: #999;
+font-size: 15px;
+}
+
+.app-body {
+margin-top: 40px;
+}
+
+.done-true {
+text-decoration: line-through;
+color: grey;
+}
+
+.archive-control {
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+height: 22px;
+line-height: 22px;
+padding: 5px 0px 5px 10px;
+margin-bottom: 50px;
+background: #ecf0f1;
+}
+
+ul {
+list-style: none;
+padding-left: 0;
+padding: 10px;
+}
+ul li {
+line-height: 32px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.todo-form {
+padding: 10px;
+text-align: center;
+}
+
+input[type="text"] {
+border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+border-top: 0px;
+border-right: 0px;
+border-left: 0px;
+height: 30px;
+width: 100%;
+max-width: 400px;
+}
+
+input[type="submit"] {
+height: 30px;
+text-align: center;
+margin: 10px;
+width: 120px;
+}
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body data-ng-app="">
+    <div class="container" data-ng-controller="TodoController">
+        <header class="app-header">
+            <h1 class="app-title">{{ appTitle }}</h1>
+            <h1 class="app-headline">{{ appHeadline }}</h1>
+        </header>
+
+        <section class="app-body">
+            <section class="archive-control">
+                <span>{{ remaining() }} of {{ todos.length }} remaining</span>
+                <p>[ <a href="" data-ng-click="archive()">Remove Completed Items</a> ]</p>
+            </section>
+
+            <ul class="unstyled">
+                <li data-ng-repeat="todo in todos track by $index">
+                    <input type="checkbox" data-ng-model="todo.done">
+                    <span class="done-{{ todo.done }}">{{ todo.text }}</span>
+                </li>
+            </ul>
+
+            <form data-ng-submit="addTodo()" class="todo-form">
+                <input type="text" data-ng-model="todoText" placeholder="Enter new ToDo item" />
+                <br />
+                <input type="submit" value="Add Task" />
+            </form>
+        </section>
+    </div>
+</html>

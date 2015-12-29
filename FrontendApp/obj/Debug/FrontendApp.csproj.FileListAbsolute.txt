@@ -4,3 +4,9 @@ E:\FrameworkApp\FrontendApp\bin\FrontendApp.pdb
 E:\FrameworkApp\FrontendApp\obj\Debug\FrontendApp.csprojResolveAssemblyReference.cache
 E:\FrameworkApp\FrontendApp\obj\Debug\FrontendApp.dll
 E:\FrameworkApp\FrontendApp\obj\Debug\FrontendApp.pdb
+D:\SuleymanPrivate\Github\FrontendApp\FrontendApp\bin\FrontendApp.dll.config
+D:\SuleymanPrivate\Github\FrontendApp\FrontendApp\bin\FrontendApp.dll
+D:\SuleymanPrivate\Github\FrontendApp\FrontendApp\bin\FrontendApp.pdb
+D:\SuleymanPrivate\Github\FrontendApp\FrontendApp\obj\Debug\FrontendApp.csprojResolveAssemblyReference.cache
+D:\SuleymanPrivate\Github\FrontendApp\FrontendApp\obj\Debug\FrontendApp.dll
+D:\SuleymanPrivate\Github\FrontendApp\FrontendApp\obj\Debug\FrontendApp.pdb
