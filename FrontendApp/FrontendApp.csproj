@@ -58,11 +58,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\Todolist\app.js" />
+    <Content Include="App\Todolist\index.html" />
     <Content Include="bin\FrontendApp.dll" />
     <Content Include="bin\FrontendApp.pdb" />
     <Content Include="index.html" />
-    <Content Include="js\angularjs\storage\app.js" />
-    <Content Include="js\angularjs\storage\index.html" />
+    <Content Include="js\angularjs\WebStorage\SessionStorage\app.js" />
+    <Content Include="js\angularjs\WebStorage\SessionStorage\index.html" />
+    <Content Include="js\angularjs\WebStorage\LocalStorage\app.js" />
+    <Content Include="js\angularjs\WebStorage\LocalStorage\index.html" />
     <Content Include="test\baseTesting\index.html" />
     <Content Include="test\baseTesting\TestingController.js" />
     <Content Include="test\baseTesting\TestingDirective.js" />
